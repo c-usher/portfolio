@@ -3,6 +3,14 @@ body {
 }
 
 /* section styling */
+
+/* top-nav section */
+.top-nav {
+  background-color: #679436;
+  height: 10rem;
+  max-width: 100%;
+}
+
 .section-intro {
   padding-bottom: 10rem;
 }
