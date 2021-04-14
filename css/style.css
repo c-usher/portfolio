@@ -10,7 +10,14 @@ body {
   height: 8rem;
   max-width: 100%;
 }
-
+.contact-bar {
+  padding-top: 10rem;
+}
+.bottom-bar {
+  background-color: #55876c;
+  height: 8rem;
+  max-width: 100%;
+}
 .nav-bar-list {
   list-style-type: none;
   display: flex;
@@ -19,6 +26,15 @@ body {
   padding-right: 5rem;
   padding-top: 5rem;
 }
+/* 
+.contact-bar-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
+} */
 
 .section-intro {
   padding-top: 20rem;
@@ -45,6 +61,11 @@ body {
   padding-top: 55rem;
 }
 
+/* escape game */
+.escape-game-row {
+  padding-top: 10rem;
+}
+
 /* image styling  */
 /* souls adventure */
 .souls-adventure-img {
@@ -60,14 +81,28 @@ body {
 
 /* tweeter */
 .tweeter-img {
+  position: relative;
   max-width: 100%;
   padding-top: 1rem;
-  padding-bottom: 40rem;
 }
 
 .tweeter-languages {
+  position: relative;
   max-width: 100%;
   padding-top: 2rem;
+}
+
+/* escape game */
+
+.escape-game-img {
+  position: relative;
+  max-width: 100%;
+  padding-top: 5rem;
+}
+.escape-game-languages {
+  position: relative;
+  padding-top: 10rem;
+  max-width: 100%;
 }
 
 /* button styling */
