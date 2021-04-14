@@ -2,6 +2,57 @@ body {
   background-color: #427aa1;
 }
 
+/* section styling */
+.section-intro {
+  padding-bottom: 10rem;
+}
+
+.name {
+  color: #72a53b;
+}
+
+/* projects section */
+.project-titles {
+  color: #874000;
+}
+
+/* souls adventure */
+.souls-adventure-description {
+  padding-top: 5rem;
+  font-size: 1.7rem;
+}
+
+/* tweeter */
+.tweeter-row {
+  padding-top: 55rem;
+}
+
+/* image styling  */
+/* souls adventure */
+.souls-adventure-img {
+  position: relative;
+  max-width: 100%;
+  padding-top: 10rem;
+}
+
+.souls-languages-img {
+  max-width: 100%;
+  padding-top: 1rem;
+}
+
+/* tweeter */
+.tweeter-img {
+  max-width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 40rem;
+}
+
+.tweeter-languages {
+  max-width: 100%;
+  padding-top: 2rem;
+}
+
+/* button styling */
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
