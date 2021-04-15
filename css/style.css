@@ -2,14 +2,26 @@ body {
   background-color: #427aa1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* section styling */
 
 /* top-nav section */
 .top-nav {
   background-color: #55876c;
+  position: fixed;
   height: 8rem;
   max-width: 100%;
+  z-index: 1;
 }
+
 .contact-bar {
   padding-top: 10rem;
 }
@@ -26,15 +38,16 @@ body {
   padding-right: 5rem;
   padding-top: 5rem;
 }
-/* 
-.contact-bar-list {
+
+.bottom-bar-list {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 5rem;
-} */
+  justify-content: center;
+  padding-top: 2rem;
+}
+li {
+  padding-right: 2rem;
+}
 
 .section-intro {
   padding-top: 20rem;

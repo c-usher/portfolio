@@ -3,19 +3,23 @@
 <link rel="stylesheet" href="./css/normalize.css" />
 <link rel="stylesheet" href="./css/skeleton.css" />
 <link rel="stylesheet" href="./css/style.css" />
+<script
+  src="https://kit.fontawesome.com/780a9b8129.js"
+  crossorigin="anonymous"
+></script>
 
 <body>
   <section class="nav-bar">
     <div class="u-full-width twelve columns top-nav">
       <ul class="nav-bar-list">
-        <li>Home</li>
-        <li>Project</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href="#section-intro">home</a></li>
+        <li><a href="#section-projects">Projects</a></li>
+        <li><a href="#section-intro">About</a></li>
+        <li><a href="#contact-bar">Contact</a></li>
       </ul>
     </div>
   </section>
-  <section class="section-intro">
+  <section class="section-intro" id="section-intro">
     <div class="container">
       <div class="row">
         <div class="five columns">
@@ -31,7 +35,7 @@
       </div>
     </div>
   </section>
-  <section class="section-projects">
+  <section class="section-projects" id="section-projects">
     <div class="container">
       <h1 class="project-titles">Projects</h1>
       <div class="row">
@@ -103,7 +107,35 @@
       </div>
     </div>
   </section>
-  <section class="contact-bar">
-    <div class="u-full-width twelve columns bottom-bar">ICONS GO HERE</div>
+  <section class="contact-bar" id="contact-bar">
+    <div class="u-full-width twelve columns bottom-bar">
+      <ul class="bottom-bar-list">
+        <li>
+          <a href="https://github.com/c-usher"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/codyusher/"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="tel:+1-970-977-9095"><i class="fas fa-mobile fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="mailto:usher.cody@outlook.com"
+            ><i class="fas fa-envelope fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/document/d/1gCQEp-Unzc9S2LfQ62XYO824ejNQcSquHV0Xb-78PWI/edit"
+          >
+            <i class="fas fa-file fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
   </section>
 </body>
