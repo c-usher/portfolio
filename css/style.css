@@ -71,7 +71,7 @@ li {
 
 /* tweeter */
 .tweeter-row {
-  padding-top: 55rem;
+  padding-top: 57rem;
 }
 
 /* escape game */
@@ -84,7 +84,7 @@ li {
 .souls-adventure-img {
   position: relative;
   max-width: 100%;
-  padding-top: 10rem;
+  padding-top: 14.5rem;
 }
 
 .souls-languages-img {
@@ -96,7 +96,7 @@ li {
 .tweeter-img {
   position: relative;
   max-width: 100%;
-  padding-top: 1rem;
+  padding-top: 4rem;
 }
 
 .tweeter-languages {
@@ -114,7 +114,7 @@ li {
 }
 .escape-game-languages {
   position: relative;
-  padding-top: 10rem;
+  padding-top: 6.5rem;
   max-width: 100%;
 }
 
