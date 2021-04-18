@@ -95,12 +95,46 @@ li {
 .souls-adventure-img {
   position: relative;
   max-width: 100%;
-  padding-top: 14.5rem;
+  padding-top: 8rem;
 }
 
-.souls-languages-img {
-  max-width: 100%;
-  padding-top: 1rem;
+.souls-img-overlay {
+  position: absolute;
+  transform: translate(55%, -200%);
+  -webkit-transform: translate(55%, -200%);
+  -ms-transform: translate(55%, -200%);
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.tweeter-img-overlay {
+  position: absolute;
+  transform: translate(55%, -175%);
+  -webkit-transform: translate(55%, -175%);
+  -ms-transform: translate(55%, -175%);
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.escape-game-img-overlay {
+  position: absolute;
+  transform: translate(27%, -175%);
+  -webkit-transform: translate(27%, -175%);
+  -ms-transform: translate(27%, -175%);
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.escape-game-img-container:hover .escape-game-img-overlay {
+  opacity: 1;
+}
+
+.souls-img-container:hover .souls-img-overlay {
+  opacity: 1;
+}
+
+.tweeter-img-container:hover .tweeter-img-overlay {
+  opacity: 1;
 }
 
 /* tweeter */
@@ -113,7 +147,6 @@ li {
 .tweeter-languages {
   position: relative;
   max-width: 100%;
-  padding-top: 2rem;
 }
 
 /* escape game */
@@ -125,8 +158,7 @@ li {
 }
 .escape-game-languages {
   position: relative;
-  padding-top: 6.5rem;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 /* icon styling */
